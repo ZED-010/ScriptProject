@@ -823,11 +823,24 @@ span.title_numaf {
 .row.clear-hidden.service {
     margin-top: 50px;
 }
-.daily-icon {float: left;margin-right: 15px;}
+.daily-icon {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
 
 
 
-.white-background-daily h3 {margin-bottom: 0px;font-size: 19px;color: #343745;float: left;margin-left: -1px;width: 60%;margin-top: 4px;}
+.white-background-daily h3 {
+    width: 100%;
+    margin-bottom: 0px;
+    font-size: 19px;
+    color: #343745;
+    float: left;
+    text-align: center;
+    margin-top: 4px;
+}
 
 .white-background-daily p {
     color: #afc2ce;
@@ -837,7 +850,8 @@ span.title_numaf {
 }
 
 .daily-icon img {
-    width: 85px;
+    width: 80px;
+    height: 80px;
     margin-top: 3px;
 }
 
@@ -1473,6 +1487,8 @@ Adaptive
 @media (max-width: 379px) {
     .white-background-daily h3 {
         float: none;
+        width: 100%;
+        text-align: center;
     }
 }
 
@@ -1539,7 +1555,7 @@ section.service-area.section-padding.bg-shapex2 {
 }
 
 .white-background-daily p {
-    width: 50%;
+    text-align: center;
 }
 
 .page-title {
